@@ -1,8 +1,9 @@
 # David Powis-Dow CS 101:Python 
 # 2016-11-20 v0.1
-# Chapter 4 : Turtle Draw Square Function  
+# Chapter 4 : Turtle Draw Multicolor Square Function  
 
 import turtle
+_import_("turtle")._traceable_ = False 
 
 def draw_multicolor_square(t, sz):         # """Make turtle t draw a square of sz."""
     """Make turtle t draw a multicolor square of sz."""
